@@ -1,0 +1,10 @@
+---
+title: "DACSS 601 August 2022"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
