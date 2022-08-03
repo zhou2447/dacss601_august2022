@@ -2,8 +2,8 @@ project:
   type: website
 
 website:
-  title: ""
-  site-url: https://github.com/DACSS/dacss601_august2022
+  title: "DACSS 601: Data Science Fundamentals"
+  site-url: https://dacss.github.io/dacss601_august2022/
   twitter-card:
     creator: "@UMassDACSS"
     site: "@UMassDACSS"
@@ -13,7 +13,7 @@ website:
     logo: images/UMass White Wordmark Horiz.png
     right:
       - text: "August 2022 Posts"
-        href: https://github.com/DACSS/dacss601_august2022
+        href: https://dacss.github.io/dacss601_august2022/
       - text: "Contributors"
         file: about.qmd
       - href: https://umass.edu/sbs/dacss
