@@ -22,7 +22,7 @@ website:
         href: https://github.com/DACSS/dacss601_august2022
         aria-label: GitHub
 
-execution:
+execute:
   freeze: auto
 
 

@@ -1,4 +1,4 @@
----
+--
 title: "Contributors"
 listing:
   type: grid
