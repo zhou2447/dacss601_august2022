@@ -3,7 +3,7 @@ project:
 
 website:
   title: ""
-  site-url: https://dacss.github.io/quarto_blog_template/
+  site-url: https://dacss.github.io/dacss601_august2022/
   twitter-card:
     creator: "@UMassDACSS"
     site: "@UMassDACSS"
@@ -13,13 +13,13 @@ website:
     logo: images/UMass White Wordmark Horiz.png
     right:
       - text: "August 2022 Posts"
-        href: https://dacss.github.io/quarto_blog_template/
+        href: https://dacss.github.io/dacss601_august2022/
       - text: "Contributors"
         file: about.qmd
       - href: https://umass.edu/sbs/dacss
         text: "DACSS"
       - icon: github
-        href: https://github.com/DACSS/quarto_blog_template
+        href: https://github.com/DACSS/dacss601_august2022
         aria-label: GitHub
 
 execution:
