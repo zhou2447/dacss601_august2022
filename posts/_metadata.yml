@@ -1,10 +1,8 @@
 comments:
   giscus:
-    repo: DACSS/quarto-blog-template
+    repo: DACSS/dacss601_august2022
     category: Blog
-title-block-banner: "#EDF3F9"
-title-block-banner-color: body
-toc-location: left
+toc-location: right
 search: true
 execute:
   freeze: auto
