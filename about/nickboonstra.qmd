@@ -1,0 +1,31 @@
+---
+title: "Nick Boonstra"
+image: images/nickboonstra.jpeg
+about:
+  template: solana
+  image-width: 15em
+  image-shape: round
+  image: images/nickboonstra.jpeg
+  links:
+    - icon: github
+      text: nesboonstra
+      href: https://github.com/DACSS
+---
+
+## Education/Work Background
+Started university at Boston University studying physics. Financial issues kept me from continuing. Spent some time at Bunker Hill Community College. Transferred to UMass Lowell; finished with a Bachelor's in Liberal Arts with concentrations in Political Science and Writing. I also have customer service work experience in banking, food service, and theatre.
+
+## R experience
+None before this summer!
+
+## Research interests
+Partisanship and polarization, and the effects these have on the disparate perceptions of reality that Americans currently hold.
+
+## Hometown
+I grew up in Leominster, MA. After living in Boston for a few years, and in Lowell for a few more, I have just moved to Chicopee.
+
+## Hobbies
+Following English & European football, playing chess, playing guitar, dabbling in solving & constructing crosswords...
+
+## Fun fact
+I once took a one-night trip from Boston to London to see a football match!
