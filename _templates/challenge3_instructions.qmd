@@ -37,10 +37,10 @@ Today's challenge is to:
 Read in one (or more) of the following datasets, using the correct R package and command.
 
 -   animal_weights.csv ⭐
--   USA Households\*.xlsx ⭐⭐
--   poultry_data.csv ⭐⭐⭐
--   australian_marriage\*.xlsx ⭐⭐⭐⭐
--   sce_labor_chart_data_public.csv ⭐⭐⭐⭐⭐
+-   eggs_tidy.csv ⭐⭐ or organicpoultry.xls ⭐⭐⭐
+-   australian_marriage\*.xlsx ⭐⭐⭐
+-   USA Households\*.xlsx ⭐⭐⭐⭐
+-   sce_labor_chart_data_public.csv 🌟🌟🌟🌟🌟
 
 ```{r}
 animal_weight<-read_csv("_data/animal_weight.csv",

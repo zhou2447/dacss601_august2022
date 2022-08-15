@@ -1,7 +1,7 @@
 ---
 title: "Challenge 2 Instructions"
 author: "Meredith Rolfe"
-desription: "Data wrangling: using group() and summarise("
+desription: "Data wrangling: using group() and summarise()"
 date: "08/16/2022"
 format:
   html:
@@ -34,9 +34,9 @@ Today's challenge is to
 
 Read in one (or more) of the following data sets, available in the `posts/_data` folder, using the correct R package and command.
 
-  - railroad\*.csv or StateCounty2012.xlsx ⭐
-  - hotel_bookings ⭐⭐⭐
-  - FAOstat\*.csv ⭐⭐⭐⭐⭐ (join FAOSTAT_country_groups)
+-   railroad\*.csv or StateCounty2012.xlsx ⭐
+-   FAOstat\*.csv ⭐⭐⭐
+-   hotel_bookings ⭐⭐⭐⭐
 
 ```{r}
 
