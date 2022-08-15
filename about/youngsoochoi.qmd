@@ -1,0 +1,31 @@
+---
+title: "Young Soo Choi"
+image: images/YSC.jpg
+about:
+  template: solana
+  image-width: 15em
+  image-shape: round
+  image: images/YSC.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/since9010
+---
+
+## Education/Work Background
+Majored Sociology and worked for Korean government for 10years
+
+## R experience
+No. I don't know anything about R
+
+## Research interests
+Public Safety
+
+## Hometown
+Korea
+
+## Hobbies
+Music
+
+## Fun fact
+I have two babies.
