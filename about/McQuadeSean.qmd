@@ -1,0 +1,37 @@
+---
+title: "Sean McQuade"
+image: images/SeanM.png
+about:
+  template: solana
+  image-width: 15em
+  image-shape: round
+  image: images/SeanM.png
+  links :
+    - icon: github
+      text: Github
+      href: https://github.com/spmcquade
+---
+
+## Education/Work Background
+
+I am an undergraduate studying economics with minors in mathematics and philosophy. I will be working as an intern in the DACSS program this Fall.
+
+## R experience
+
+I have used the basics of R working as a research assistant in the Economics Department this past year, but am looking to gain more of a foundational understanding of the program through taking this course.
+
+## Research interests
+
+My work as a research assistant has been centered around elite networks, corporate responses to social movements, and most recently, corporate nepotism.
+
+## Hometown
+
+Shrewsbury, MA
+
+## Hobbies
+
+Rock climbing, hiking, and reading
+
+## Fun fact
+
+I know how to juggle!

@@ -1,0 +1,31 @@
+---
+title: "Miguel Curiel"
+image: images/MiguelCuriel.jpeg
+about:
+  template: solana
+  image-width: 15em
+  image-shape: round
+  image: images/MiguelCuriel.jpeg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/macuriels
+---
+
+## Education/Work Background
+Bachelor's in Psychology, current MSc DACSS student, and social scientist at heart - and a generalist, for that matter. Practiced as data analyst and storyteller in multiple research environments: clinical neuroscience, penitentiary system, entrepreneurial ecosystems, public transportation, social media and supply chains.
+
+## R experience
+A recovering Python stan formally introduced into the R family by DACSS in the summer of 2022
+
+## Research interests
+Social media, mental health, networks, neuroscience, and social issues
+
+## Hometown
+Currently living in Washington, DC - but originally from Colima, Mexico
+
+## Hobbies
+Playing guitar and video games, hanging out in bars and restaurants, spending quality time with friends, family and cats
+
+## Fun fact
+Briefly dabbled on being a YouTuber and an entrepreneur - quite unsuccessfully, but learned and enjoyed a lot!

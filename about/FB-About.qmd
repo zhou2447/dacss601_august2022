@@ -1,15 +1,15 @@
 ---
-title: "Max"
-image: images/MaxRolfe.jpeg
+title: "Felix Betancourt"
+image: images/FB-Pic.jpg
 about:
   template: solana
   image-width: 15em
   image-shape: round
-  image: images/MaxRolfe.jpeg
+  image: images/FB-Pic.jpg
   links:
     - icon: github
       text: Github
-      href: https://github.com/DACSS
+      href: https://github.com/fbetanco/dacss601_august2022
 ---
 
 ## Education/Work Background
