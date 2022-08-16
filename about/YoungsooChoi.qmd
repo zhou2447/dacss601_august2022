@@ -1,0 +1,47 @@
+---
+title: "Young Soo Choi"
+image: images/YSC.jpg
+about:
+  template: solana
+  image-width: 15em
+  image-shape: round
+  image: images/YSC.jpg
+  links:
+  - icon: github
+    text: Github
+    href: https://github.com/since9010
+---
+
+##Instructions
+
+-   save a copy of this document as *FirstLast.qmd* in the **about** folder
+-   replace *Your Name* in yaml header with your first and last name
+-   save an image (jpeg, png) to use in the **about/images** folder
+-   replace image names in yaml header
+-   replace github user name
+-   fill in information below, as appropriate
+-   commit to github and submit pull request
+
+## Education/Work Background
+
+I had majored in Sociology and then worked for Korean Government over 10 years.
+
+## R experience
+
+None. I have no idea about R at all.
+
+## Research interests
+
+Public Safety
+
+## Hometown
+
+Korea
+
+## Hobbies
+
+Music
+
+## Fun fact
+
+I have two sons.
