@@ -2,7 +2,9 @@
 title: "DACSS 601 August 2022"
 listing:
   contents: posts
-  sort: "date desc"
+  sort: 
+    - "date desc"
+    - "author"
   type: default
   categories: true
 ---

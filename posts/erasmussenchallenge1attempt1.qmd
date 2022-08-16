@@ -1,0 +1,73 @@
+---
+title: "Challenge 1 Attempt"
+author: "Emma Rasmuussen"
+desription: "Reading in data and creating a post"
+date: "08/15/2022"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-copy: true
+    code-tools: true
+categories:
+  - challenge_1
+---
+
+```{r}
+#| label: setup
+#| warning: false
+#| message: false
+library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+
+```
+
+Below is a preview of the data set "railroad_2012_clean_county"
+
+*****One of our tutorials says im not supposed to change the working directory in a script but my render would not go through without this in script (even if it was in my console)
+
+```{r}
+railroad_2012_clean_county <- read_csv("_data/railroad_2012_clean_county.csv")
+View(railroad_2012_clean_county)
+head(railroad_2012_clean_county)
+```
+
+This data set looks at the number of employees working at railroads across different U.S. counties in 2012. The data set includes states, counties, and the total number of employees. The data was most likely gathered from government employment records, or from the the railroads directly. The U.S. Department of Transportation may have gathered this data, or gathers other data like this. The data set has three columns, one for each state, county, and the number of employees at railroads. The data set has 2,930 rows, one for each county (I assume it only includes U.S. county's with railroads, as Google says there are 3,006 counties in the U.S., but only 2,920 counties in the data set). The cases are counties, and number of employees is the variable that changes across counties.
+
+There is data taken from 53 states/territories:
+
+```{r}
+railroad_2012_clean_county%>% #Using the pipeline command to apply future commands to this data
+  group_by(state)%>% #Grouping the data by state
+  slice(1) #slicing the data so there is one unique state per row/no duplicate states
+#there are 53 rows in our sliced data set, there should be 53 unique states/territories included in this data set(ex: AE/APO is likely referring to railroads located at military addresses)
+```
+
+There are 255,432 employees of U.S. Railroads, according to our data set (if the code below is correct):
+
+```{r}
+summarize(railroad_2012_clean_county, sum(total_employees))
+```
+
+```{r}
+#This code arranges the data set by the number of employees at each railroad, from greatest to least
+arrange(railroad_2012_clean_county, desc(total_employees))
+```
+
+The mean number of employees at all railroads in the data set is 87.2 employees, but there is a very large standard deviation.
+
+```{r}
+summarize(railroad_2012_clean_county, mean(total_employees), sd(total_employees))
+```
+
+The minimum number of employees at any railroad is 1. The maximum number of employees is 8,207:
+
+```{r}
+summarize(railroad_2012_clean_county, max=max(total_employees), min=min(total_employees))
+```
+
+Since there is such a wide range of employee numbers based on the county, it is worth finding the median number of employees to get a clearer picture of what is going on. This paints a very different picture than when compared to the median.
+
+```{r}
+summarize(railroad_2012_clean_county, median(total_employees))
+```
