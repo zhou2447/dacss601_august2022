@@ -32,7 +32,7 @@ Minor in Mathematics
 Introductory
 
 ## Research interests
-Big data, AI, Cellular Automata
+Big data, AI, Cellular Automaton
 
 ## Hometown
 Chengdu, Sichuan, China
