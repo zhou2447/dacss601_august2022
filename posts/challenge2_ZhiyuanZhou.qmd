@@ -1,0 +1,109 @@
+---
+title: "Challenge 2 Instructions"
+author: "Zhiyuan Zhou"
+desription: "Data wrangling: using group() and summarise()"
+date: "08/16/2022"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-copy: true
+    code-tools: true
+categories:
+  - challenge_2
+---
+
+```{r}
+#| label: setup
+#| warning: false
+#| message: false
+
+library(tidyverse)
+
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+```
+
+## Challenge Overview
+
+Today's challenge is to
+
+1)  read in a data set, and describe the data using both words and any supporting information (e.g., tables, etc)
+2)  provide summary statistics for different interesting groups within the data, and interpret those statistics
+
+## Read in the Data
+
+Read in one (or more) of the following data sets, available in the `posts/_data` folder, using the correct R package and command.
+
+-   railroad\*.csv or StateCounty2012.xlsx ⭐
+-   FAOstat\*.csv ⭐⭐⭐
+-   hotel_bookings ⭐⭐⭐⭐
+
+```{r}
+getwd()
+
+
+ railroad<-read.csv(file="_data/railroad_2012_clean_county.csv")
+```
+
+
+## Describe the data
+
+This dataset is about number of employees of railroad of the US. It has 3 columns, state, county and total number of employees.
+
+```{r}
+#| label: summary
+str(railroad)
+summary(railroad)
+
+
+```
+
+## Provide Grouped Summary Statistics
+
+Conduct some exploratory data analysis, using dplyr commands such as `group_by()`, `select()`, `filter()`, and `summarise()`. Find the central tendency (mean, median, mode) and dispersion (standard deviation, mix/max/quantile) for different subgroups within the data set.
+
+```{r}
+library(dplyr)
+# railroad%>%
+#   group_by(state)%>%
+#   summarise_if(is.numeric,
+#                c(q1=quantile,
+#                  q3=quantile,
+#                  mean=mean,
+#                  median=median,
+#                  sd=sd,
+#                  min=min,
+#                  max=max),0.25,0.75)
+summary_bystate<-
+railroad%>%
+  group_by(state)%>%
+  summarise(n(),
+            mean=mean(total_employees),
+            median=median(total_employees),
+            sd=sd(total_employees),
+            min=min(total_employees),
+            max=max(total_employees),
+            qt=quantile(total_employees,0.25),quantile(total_employees,0.75))%>%
+  arrange(desc(median))
+
+summary_bystate<-
+railroad%>%
+  group_by(state)%>%
+  summarise(n(),
+            mean=mean(total_employees),
+            median=median(total_employees),
+            sd=sd(total_employees),
+            min=min(total_employees),
+            max=max(total_employees),
+            qt=quantile(total_employees,0.25),quantile(total_employees,0.75))%>%
+  arrange(desc(sd))
+
+kableExtra::kable(summary_bystate)%>%
+  kableExtra::kable_classic_2(full_width=T)
+
+```
+
+### Explain and Interpret
+Sorted by median number of employees, the top 6 states are all at the east coast, the railroad system here is more developed than west coast.
+
+IL is the state with the most standard deviation, which means the railroad development difference among counties is pretty extreme.
