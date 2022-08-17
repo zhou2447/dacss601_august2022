@@ -1,0 +1,16 @@
+{
+  "hash": "7fadaae77905c06948319bdda3afaee9",
+  "result": {
+    "markdown": "---\ntitle: \"Welcome to DACSS 601\"\nauthor: \"Meredith Rolfe\"\ndesription: \"Welcome to the DACSS 601 course blog.\"\ndate: \"08/08/2022\"\nformat:\n  html:\n    toc: true\n    code-fold: true\n    code-copy: true\n    code-tools: true\ncategories:\n  - example\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n\nknitr::opts_chunk$set(echo = TRUE)\n```\n:::\n\n\n## Getting Setup\n\nBy now, all of you should have received detailed instructions about how to get set up on the course blog, and be preparing to submit your own \"contributor\" or \"about me\" page! \n\nAfter you submit a pull request to have your Contributor page added to the website, it may take a while for the site to be published. Please allow at least 48 hours before worrying, and don't hesitate to reach out and get additional support from our Tutorial Ambassadors if you run into issues!\n",
+    "supporting": [
+      "WelcomePost_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

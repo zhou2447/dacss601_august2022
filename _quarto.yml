@@ -2,6 +2,10 @@ project:
   type: website
 
 website:
+  comments:
+    giscus:
+      repo: DACSS/dacss601_august2022
+      category: Blog
   title: ""
   site-url: https://dacss.github.io/dacss601_august2022/
   twitter-card:
@@ -21,9 +25,7 @@ website:
       - icon: github
         href: https://github.com/DACSS/dacss601_august2022
         aria-label: GitHub
-
-execution:
-  freeze: auto
+        
 
 
 format:
